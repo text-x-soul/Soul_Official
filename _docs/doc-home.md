@@ -1,5 +1,5 @@
 ---
-title: My Page
+title: Introduction
 permalink: /docs/doc-home/
 ---
 
