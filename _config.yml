@@ -2,3 +2,4 @@
 # or the specific tag
 remote_theme: aksakalli/jekyll-doc-theme@gh-pages
 git_address: https://github.com/text-x-soul/Soul_Official
+bootwatch: readable
