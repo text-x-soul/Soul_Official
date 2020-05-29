@@ -1,6 +1,7 @@
 ---
 title: Introduction
-permalink: /docs/doc-home/
+permalink: /docs/home/
+redirect_from: /docs/index.html
 ---
 
 ## Getting Started
