@@ -1,7 +1,6 @@
 ---
 title: Welcome
 permalink: /docs/home/
-redirect_from: /docs/index.html
 ---
 ## Getting Started
 The Soul file format is universal. However, implementations may vary with how they function. 
