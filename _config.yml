@@ -1,32 +1,3 @@
 # Configure the remote_theme plugin with the gh-pages branch
 # or the specific tag
-remote_theme: aksakalli/jekyll-doc-theme@gh-pages   
-title: Soul Configuration File
-email: admin@masterconsole.tk
-description: >
-  Official Website of the Soul Configuration File Format.
-lang: en-US
-
-git_address: https://github.com/text-x-soul/Soul_Official
-
-# theme options from https://bootswatch.com/3/
-# comment out this to use default Bootstrap
-bootwatch: paper # cerulean cosmo custom cyborg darkly flatly journal lumen readable sandstone simplex slate solar spacelab superhero united yeti
-
-defaults:
-- scope:
-    path: _docs
-    type: docs
-  values:
-    layout: docs
-    sectionid: docs
-    seo:
-      type: "WebPage"
-
-collections:
-  docs:
-    permalink: /:collection/:path/
-    output: true
-  posts:
-    permalink: /blog/:year/:month/:day/:title/
-    output: true
+remote_theme: aksakalli/jekyll-doc-theme@gh-pages
