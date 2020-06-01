@@ -38,7 +38,7 @@ These are the type identifiers:
 `Comments` are points or annotations of text data that can used to refer to code. They are ignored by parsers and readers. 
 Most programming languages and interfaces today have implemented comments for the easiness of the programmer.
 
-There are no single comments for the soul file format till now. Comments here are both single and mutli-line, follows
+There are no single line comments for the soul file format till now. Comments here are both single and mutli-line, follows
 only one rule.
 
 #### Groups
