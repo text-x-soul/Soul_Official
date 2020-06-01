@@ -30,8 +30,8 @@ These are the type identifiers:
 - `Unknown`: Unknown type of data.
 - `Soul String`: A string.
 - `Number`: An integer or decimal.
-- [`Group`](https://github.com/Master-Console/Soul_Official/new/master/_docs#groups): A list like structure.
-- [`Group Variables`](https://github.com/Master-Console/Soul_Official/new/master/_docs#group-varsgroup-variables): Variables that assign values to Group parameters.
+- [`Group`](https://text-x-soul.tk/docs/guide/#groups): A list like structure.
+- [`Group Variables`](https://text-x-soul.tk/docs/guide/#group-varsgroup-variables): Variables that assign values to Group parameters.
 - [`Info`](https://github.com/Master-Console/Soul_Official/new/master/_docs#soul-registers) : Soul Registers
 
 #### Comments
