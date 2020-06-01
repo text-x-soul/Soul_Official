@@ -1,2 +1,2 @@
 # Soul_Official
-Official website of Soul File Format
+Official website of the friendly Soul Configuration File Format
