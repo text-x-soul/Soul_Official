@@ -7,7 +7,7 @@ redirect_from: /docs/index.html
 The Soul file format is universal. However, implementations may vary with how they function. 
 You should start by learning the syntax and then downloading a suitable implementation for the platform you are working with.
 
-Implementations are currently available for Qt and Native C++, you can download them from the Download section.
+Implementations are currently available for Qt and Native C++, you can download them from the [Download section](https://text-x-soul.tk/download.html).
 
 The current format is **0.5.2** and the documentation is written according with that.
 
