@@ -36,7 +36,7 @@ classes:
         This method returns the Soul file format version used by the document.
       - #### std::string getVarValue(std::string key)
         This method returns the variable value where the key is the variable name.
-      - #### std::vector<<std::string>> groupDef(std::string key)
+      - #### std::vector<std::string> groupDef(std::string key)
         This method returns the group definition where key is the group name.
       - #### std::string groupParams(std::string key, int index)
         This method returns group parameters identified by group name.
@@ -46,9 +46,9 @@ classes:
         This method returns the SOUL_Register map.
       - #### std::map<std::string, std::string> valueMap()
         This method returns the variable-value map.
-      - #### std::map<std::string, std::vector<<std::string>>> grpMap()
+      - #### std::map<std::string, std::vector<std::string>> grpMap()
         This method returns the group-definition map.
-      - #### std::map<std::vector<<std::string>>, std::string> grpVarMap()
+      - #### std::map<std::vector<std::string>, std::string> grpVarMap()
         This method returns the group-variable map.
         
 ##### Sample Program
