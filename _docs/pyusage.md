@@ -28,35 +28,35 @@ classes:
   - SoulStreamReader constructor with default filename value empty, here we can't use two constructors.
     So better use filenames on using variables.
     - #### `Methods`:
-      - #### def __init__(self, filename = "")
+      - ##### `def __init__(self, filename = "")`
         Initialization method, please provide filename while constructing a object based on SoulStreamReader.
-      - #### def startStream(self)
+      - ##### `def startStream(self)`
         This method runs everytime a soul file is configured with the current
         SoulStreamReader object. This can occur on setting filenames or while
         initializing one.
-      - #### def setFileName(self, filename)
+      - ##### `def setFileName(self, filename)`
         Sets the current filename
-      - #### def getFileName(self)
+      - ##### `def getFileName(self)`
         Returns the current filename
-      - #### def typeOf(self, key, mapvalue)
+      - ##### `def typeOf(self, key, mapvalue)`
         Returns the type of value in Map
-      - #### def soulVersion(self)
+      - ##### `def soulVersion(self)`
         Returns the Soul Version of the current soul document
-      - #### def getVarValue(self, key)
+      - ##### `def getVarValue(self, key)`
         Returns the variable value
-      - #### def groupDef(self, key)
+      - ##### `def groupDef(self, key)`
         Returns the group Definition
-      - #### def groupParams(self, key, index)
+      - ##### `def groupParams(self, key, index)`
         Returns the group params/parameters
-      - #### def getGrpValue(self, group, param)
+      - ##### `def getGrpValue(self, group, param)`
         Returns the group value of a particular param
-      - #### def infoMap(self)
+      - ##### `def infoMap(self)`
         Returns the SOUL_Registers map
-      - #### def valueMap(self)
+      - ##### `def valueMap(self)`
         Returns the variable map
-      - #### def grpMap(self)
+      - ##### `def grpMap(self)`
         Returns the Group map
-      - #### def grpVarMap(self)
+      - ##### `def grpVarMap(self)`
         Returns the Group-Variable map
 
 ###### sample.soul
