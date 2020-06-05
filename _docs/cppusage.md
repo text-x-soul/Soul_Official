@@ -94,4 +94,4 @@ int main(){
 }
 ```
 
-`IMPORTANT NOTE:` If you have any implementations, please open up a issue on our [Github repo](https://github.com/text-x-soul/text-x-soul)and submit a Documentation like above one/ones.
+`IMPORTANT NOTE:` If you have any implementations, please open up a issue on our [Github repo](https://github.com/text-x-soul/text-x-soul) and submit a Documentation like above one/ones.
