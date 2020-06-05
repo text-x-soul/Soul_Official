@@ -23,6 +23,10 @@ classes:
   - `SoulStreamReader` with two **constructors**, one `with filename` and one without `filename`.
     - `SoulMaps` enum
     - #### `Methods`:
+      - #### SoulStreamReader::SoulStreamReader()
+        Constructs a SoulStreamReader object.
+      - #### SoulStreamReader::SoulStreamReader(std::string filename)
+        Constructs a SoulStreamReader object and runs setFileName(std::string filename)
       - #### void startStream()
         This method runs on constructing or reading a soul configuration file.
       - #### int typeOf(std::string key, SoulMaps map)
