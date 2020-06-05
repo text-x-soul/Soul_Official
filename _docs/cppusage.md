@@ -2,7 +2,7 @@
 title: C++ Usage
 permalink: /docs/cppusage/
 ---
-This `documentation page` guides you how to use implementations by various people.
+This `documentation page` guides you how to use implementations by various people in C++.
 
 ### Master-Console Inc.'s implementation : `format - 0.5.2`
 
@@ -85,11 +85,11 @@ using namespace Soul;
 
 int main(){
   SoulStreamReader *soul_reader = new SoulStreamReader("sample.soul");
-  std::cout << soul_reader.getVarValue("value") << std::endl; // prints 7
-  std::cout << soul_reader.getVarValue("example") << std::endl; // prints well, hello there!
-  std::cout << soul_reader.groupDef("query") << std::endl; // prints {host, username, password, database}
-  std::cout << soul_reader.groupParams("query", 2) << std::endl; // prints password
-  std::cout << soul_reader.getGrpValue("query", "username") << std::endl; // prints root
+  std::cout << soul_reader->getVarValue("value") << std::endl; // prints 7
+  std::cout << soul_reader->getVarValue("example") << std::endl; // prints well, hello there!
+  std::cout << soul_reader->groupDef("query") << std::endl; // prints {host, username, password, database}
+  std::cout << soul_reader->groupParams("query", 2) << std::endl; // prints password
+  std::cout << soul_reader->getGrpValue("query", "username") << std::endl; // prints root
   return 0;
 }
 ```
