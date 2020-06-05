@@ -10,7 +10,7 @@ Classes use namespace `Soul`
 #### `SoulParser.h`
 
 - Uses Regex Library known as [`SRELL`](http://www.akenotsuki.com/misc/srell/en/)
-- Provides soul extensions as a std::vector<std::string>
+- Provides soul extensions as a std::vector\<std::string\>
 
 classes:
   - SoulParser with one **constructor**, no params
