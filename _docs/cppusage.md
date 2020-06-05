@@ -23,36 +23,36 @@ classes:
   - `SoulStreamReader` with two **constructors**, one `with filename` and one without `filename`.
     - `SoulMaps` enum
     - #### `Methods`:
-      - #### SoulStreamReader::SoulStreamReader()
+      - ##### `SoulStreamReader::SoulStreamReader()`
         Constructs a SoulStreamReader object.
-      - #### SoulStreamReader::SoulStreamReader(std::string filename)
+      - ##### `SoulStreamReader::SoulStreamReader(std::string filename)`
         Constructs a SoulStreamReader object and runs setFileName(std::string filename)
-      - #### void startStream()
+      - ##### `void startStream()`
         This method runs on constructing or reading a soul configuration file.
-      - #### int typeOf(std::string key, SoulMaps map)
+      - ##### `int typeOf(std::string key, SoulMaps map)`
         This method returns a `TypeIdentifier` **enum** value.
-      - #### void setFileName(std::string filename)
+      - ##### `void setFileName(std::string filename)`
         This method sets the filename of the `SoulStreamReader` object to the provided filename and starts the stream
         using `startStream()`
-      - #### void getFileName()
+      - ##### `void getFileName()`
         This method returns the current Soul File Document name.
-      - #### std::string soulVersion() const
+      - ##### `std::string soulVersion() const`
         This method returns the Soul file format version used by the document.
-      - #### std::string getVarValue(std::string key)
+      - ##### `std::string getVarValue(std::string key)`
         This method returns the variable value where the key is the variable name.
-      - #### std::vector<std::string> groupDef(std::string key)
+      - ##### `std::vector<std::string> groupDef(std::string key)`
         This method returns the group definition where key is the group name.
-      - #### std::string groupParams(std::string key, int index)
+      - ##### `std::string groupParams(std::string key, int index)`
         This method returns group parameters identified by group name.
-      - #### std::string getGrpValue(std::string group, std::string param)
+      - ##### `std::string getGrpValue(std::string group, std::string param)`
         This method returns the value of group param of a particular group where group is group name and param is parameter name
-      - #### std::map<std::string, std::string> infoMap()
+      - ##### `std::map<std::string, std::string> infoMap()`
         This method returns the SOUL_Register map.
-      - #### std::map<std::string, std::string> valueMap()
+      - ##### `std::map<std::string, std::string> valueMap()`
         This method returns the variable-value map.
-      - #### std::map<std::string, std::vector<std::string>> grpMap()
+      - ##### `std::map<std::string, std::vector<std::string>> grpMap()`
         This method returns the group-definition map.
-      - #### std::map<std::vector<std::string>, std::string> grpVarMap()
+      - ##### `std::map<std::vector<std::string>, std::string> grpVarMap()`
         This method returns the group-variable map.
         
 ##### Sample Program
