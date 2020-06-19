@@ -35,7 +35,7 @@ These are the type identifiers:
 - [`Info`](https://github.com/Master-Console/Soul_Official/new/master/_docs#soul-registers) : Soul Registers
 
 #### `Comments`
-`Comments` are points or annotations of text data that can used to refer to code. They are ignored by parsers and readers. 
+`Comments` are points or annotations of text data that can be used to refer to code. They are ignored by parsers and readers. 
 Most programming languages and interfaces today have implemented comments for the easiness of the programmer.
 
 There are no single line comments for the soul file format till now. Comments here are both single and mutli-line, follows
