@@ -91,7 +91,7 @@ int main(){
   SoulStreamReader *soul_reader = new SoulStreamReader("sample.soul");
   std::cout << soul_reader->getVarValue("value") << std::endl; // prints 7
   std::cout << soul_reader->getVarValue("example") << std::endl; // prints well, hello there!
-  std::cout << soul_reader->groupDef("query") << std::endl; // prints {host, username, password, database}
+  // soul_reader->groupDef("query") returns {host, username, password, database} as a vector.
   std::cout << soul_reader->groupParams("query", 2) << std::endl; // prints password
   std::cout << soul_reader->getGrpValue("query", "username") << std::endl; // prints root
   return 0;
