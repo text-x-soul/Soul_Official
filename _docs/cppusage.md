@@ -4,7 +4,7 @@ permalink: /docs/cppusage/
 ---
 This `documentation page` guides you how to use implementations by various people in C++.
 
-### Master-Console Inc.'s implementation : `format - 0.5.2`
+### teamYetZio's implementation : `format - 0.5.2`
 
 Classes use namespace `Soul`
 #### `SoulParser.h`
