@@ -4,7 +4,7 @@ permalink: /docs/javausage/
 ---
 This `documentation page` guides you how to use implementations by various people in Java.
 
-### Master-Console Inc.'s implementation(`JSoul`): `format - 0.5.2`
+### teamYetZio's implementation(`JSoul`): `format - 0.5.2`
 
 Package : `pd.mime.soul`
 
