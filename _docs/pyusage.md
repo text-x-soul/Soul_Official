@@ -4,7 +4,7 @@ permalink: /docs/pyusage/
 ---
 This documentation page guides you how to use implementations by various people in Python.
 
-### Master-Console Inc.'s implementation(`PySoul`) : `format - 0.5.2`
+### teamYetZio's implementation(`PySoul`) : `format - 0.5.2`
 
 Package: `PySoul`
 
